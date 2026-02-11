@@ -230,7 +230,7 @@ CREATE DATABASE bus_reservation_system;
 - Clean Layout Design
 
 ---
-## Final Output
+# Final Output
 
 ### 🏠 Home Page
 <p align="center">
