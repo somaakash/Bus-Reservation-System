@@ -281,7 +281,7 @@ CREATE DATABASE bus_reservation_system;
   <img src="screenshots/edit bus.png" width="30%">
 </p>
 
-
+---------------------
 # 🧠 Learning Outcomes
 
 Through this project:
