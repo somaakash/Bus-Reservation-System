@@ -110,55 +110,45 @@ Controller Layer  →  Service Layer  →  Repository Layer  →  Database
 
 # 🚀 How To Run
 
-### 1️⃣ Clone the repository
-
+### 1. Clone the repository
 ```bash
 git clone https://github.com/your-username/bus-reservation-system.git
 ```
 
 ---
-
-### 2️⃣ Create Database
-
+### 2. Create Database
 ```sql
 CREATE DATABASE bus_reservation_system;
 ```
 
 ---
-
-### 3️⃣ Update MySQL credentials
-
+### 3. Update MySQL credentials
 Edit:
-
 ```
 src/main/resources/application.properties
 ```
 
 ---
-
-### 4️⃣ Run the project
+### 4. Run the project
 
 Using Maven:
 
 ```bash
 mvn spring-boot:run
 ```
-
 OR run main class from IDE.
 
 ---
-
-### 5️⃣ Open in browser
-
+### 5. Open in browser
 ```
 http://localhost:7383
 ```
 
 ---
 
-# 🛠 Common Issues Faced & Solutions
+#  Common Issues Faced & Solutions
 
-### 1️⃣ Whitelabel Error (404)
+### 1. Whitelabel Error (404)
 
 Cause:
 - Incorrect URL mapping
@@ -168,7 +158,7 @@ Fix:
 
 ---
 
-### 2️⃣ Ambiguous Mapping Error
+### 2. Ambiguous Mapping Error
 
 Cause:
 - Duplicate URL mappings
@@ -178,7 +168,7 @@ Fix:
 
 ---
 
-### 3️⃣ Feedback Not Showing
+### 3. Feedback Not Showing
 
 Cause:
 - Incorrect model attribute name
@@ -188,7 +178,7 @@ Fix:
 
 ---
 
-### 4️⃣ Admin Not Seeing Reservations
+### 4. Admin Not Seeing Reservations
 
 Cause:
 - Service method not properly called
@@ -201,7 +191,7 @@ model.addAttribute("reservations",
 
 ---
 
-### 5️⃣ Unknown Database Error
+### 5.Unknown Database Error
 
 Cause:
 - Database not created
@@ -242,41 +232,56 @@ CREATE DATABASE bus_reservation_system;
 ---
 ## Final Output
 
+### 🏠 Home Page
 <p align="center">
   <img src="screenshots/Dashboard.png" width="30%">
   <img src="screenshots/UserLogin and register.png" width="30%">
   <img src="screenshots/admin login.png" width="30%">
 </p>
+
+### 👤 User Module – Login & Dashboard
 <p align="center">
   <img src="screenshots/userDashboard.png" width="30%">
   <img src="screenshots/UserLogin and register.png" width="30%">
   <img src="screenshots/userDashboard.png" width="30%">
 </p>
+
+### 🔍 Search & View Available Buses
 <p align="center">
   <img src="screenshots/search buses which was rdirected from userdashboard.png" width="30%">
   <img src="screenshots/Available buses.png" width="30%">
   <img src="screenshots/availabele buses from userdash board when clicked book ticket.png" width="30%">
 </p>
+
+### 🚌 Ticket Booking Flow
 <p align="center">
   <img src="screenshots/book ticket by user.png" width="30%">
   <img src="screenshots/confirmbooking.png" width="30%">
   <img src="screenshots/reservation list.png" width="30%">
 </p>
+
+### 💬 Feedback System
 <p align="center">
   <img src="screenshots/give feedback.png" width="30%">
   <img src="screenshots/submitted.png" width="30%">
   <img src="screenshots/feedback list.png" width="30%">
 </p>
+
+### 🛠 Admin Panel – Dashboard & Route Management
 <p align="center">
   <img src="screenshots/admin dashboard.png" width="30%">
   <img src="screenshots/mange routes admin.png" width="30%">
   <img src="screenshots/new route admin.png" width="30%">
 </p>
+
+### 🛣 Admin – Edit Route & Bus Management
 <p align="center">
   <img src="screenshots/edit rout.png" width="30%">
   <img src="screenshots/mange buses.png" width="30%">
   <img src="screenshots/add bus admin.png" width="30%">
 </p>
+
+### ✏ Admin – Edit Bus
 <p align="center">
   <img src="screenshots/edit bus.png" width="30%">
 </p>
@@ -321,12 +326,14 @@ Through this project:
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
-P.Soma Akash
+**Developed by:**
+**P. Soma Akash**  
 Java Full Stack Trainee at [Codegnan](https://codegnan.com/)
 
 ---
+
 # Acknowledgement
 Grateful to my trainer [Sathya Prakash sir](https://github.com/sathyasoma) for invaluable guidance and support throughout my Java Full Stack training.
 
