@@ -327,9 +327,10 @@ P.Soma Akash
 Java Full Stack Trainee at [Codegnan](https://codegnan.com/)
 
 ---
-## Acknowledgement
+# Acknowledgement
 Grateful to my trainer [Sathya Prakash sir](https://github.com/sathyasoma) for invaluable guidance and support throughout my Java Full Stack training.
 
+-----------
 # ⭐ If You Like This Project
 
 Give it a ⭐ on GitHub!
